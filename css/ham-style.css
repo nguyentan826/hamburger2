@@ -1,0 +1,439 @@
+@charset "utf-8";
+/* CSS Document */
+#hero
+{
+	padding-top: 80px;
+	padding-bottom: 80px;
+	background-image: url("../images/bg-chan-hero.png");
+	background-repeat: no-repeat;
+	background-position: center bottom;
+}
+
+#gioithiutanhvien
+{
+	padding-top: 80px;
+	padding-bottom: 80px;
+	background-image: url( "../images/delivery_bg 2.png");
+	background-repeat: no-repeat;
+	background-position: center top;
+}
+
+#vechungtoi
+{
+	padding-top: 80px;
+	padding-bottom: 80px;
+	background-image: url("../images/bg-chan-hero.png"), url("../images/bg-vechungtoi.png");
+	background-repeat: no-repeat, no-repeat;
+	background-position: center bottom, center bottom;
+}
+
+#vechungtoi1
+{
+	padding-top: 80px;
+	padding-bottom: 80px;
+	background-image: url("../images/bg-chan-hero.png"), url("../images/bg-vechungtoi.png");
+	background-repeat: no-repeat, no-repeat;
+	background-position: center bottom, center bottom;
+}
+
+#gohang
+{
+	padding-top: 150px;
+	padding-bottom: 200px;
+	background-image: url("../images/bg-chan-hero.png"), url("../images/bg-vechungtoi.png");
+	background-repeat: no-repeat, no-repeat;
+	background-position: center bottom, center bottom;
+}
+
+#footer
+{
+	padding-top: 90px;
+	padding-bottom: 90px;
+	background-image:url( "../images/footer_bg 1.png"), url( "../images/bg-footer.png");
+	background-repeat: no-repeat, no-repeat;
+	background-position: center bottom, center top;
+}
+#welcome {
+	background-image: url("../images/bg-welcome.png"), url("../images/a-xinchao.png");
+	background-repeat: no-repeat, no-repeat;
+	background-position: left center, 95% center;
+	min-height: 700px
+}
+.btn-danger-1 {
+  color: #fff;
+  background-color: #dc3545;
+  border-color: #dc3545;
+	border-radius: 30px
+}
+
+.btn-danger-1:hover {
+  color: #fff;
+  background-color: #c82333;
+  border-color: #bd2130;
+}
+
+.btn-danger-1:focus, .btn-danger-1.focus {
+  color: #fff;
+  background-color: #c82333;
+  border-color: #bd2130;
+  box-shadow: 0 0 0 0.2rem rgba(225, 83, 97, 0.5);
+}
+
+.btn-danger-1.disabled, .btn-danger-1:disabled {
+  color: #fff;
+  background-color: #dc3545;
+  border-color: #dc3545;
+}
+
+.btn-danger-1:not(:disabled):not(.disabled):active, .btn-danger-1:not(:disabled):not(.disabled).active,
+.show > .btn-danger-1.dropdown-toggle {
+  color: #fff;
+  background-color: #bd2130;
+  border-color: #b21f2d;
+}
+
+.btn-danger-1:not(:disabled):not(.disabled):active:focus, .btn-danger-1:not(:disabled):not(.disabled).active:focus,
+.show > .btn-danger-1.dropdown-toggle:focus {
+	box-shadow: 0 0 0 0.2rem rgba(225, 83, 97, 0.5);}
+
+.bg-trang-70{ background-color: rgba(255,255,255,0.5)}
+
+.wel
+{
+	background-image: url("../images/bg-welcome.png"), url("../images/a-xinchao.png"), url("../images/bg-banh.png");
+	background-repeat: no-repeat, no-repeat,  no-repeat;
+	background-position: left center, 90% center, center top;
+}
+@media (max-width:900px){
+	.wel
+{
+/*	background-image: url("../images/bg-welcome.png"), url("../images/a-xinchao.png");
+	background-repeat: no-repeat, no-repeat;*/
+	background-position: left center, right center, center top;
+	background-size: 20%, 50%;
+	background-color: rgba(255,255,255,0.5)
+	
+}
+}
+@media (max-width:1200px){
+	.wel
+{
+/*	background-image: url("../images/bg-welcome.png"), url("../images/a-xinchao.png");
+	background-repeat: no-repeat, no-repeat;
+	background-position: left center, right center;*/
+	background-size: 20%, 50%
+	
+}
+}
+#carouselExampleIndicators1{ overflow: hidden; width: 100%}
+#combo .card
+{ 
+	transition:all 1s;
+	background-color: var(--white);
+	
+}
+#combo .card h2{ color: var(--secondary)}
+#combo .card:hover
+{
+	background-color: var(--secondary);
+	color: #fff
+}
+#combo .card:hover >h3,
+#combo .card:hover >h2
+{ color: #fff}
+#thanhphan 
+{
+	background-image: url( "../images/bg-chan-hero.png"), url( "../images/ingredient_bg-1 1.png");
+	background-repeat: no-repeat, no-repeat;
+	background-position: bottom center, top center;
+	min-height: 650px;
+	width: 100%;
+	padding-top: 30px;
+	padding-bottom: 80px; 
+	background-size: auto,cover;
+}
+
+
+.tphan h1, .tphan h3{
+	color:#fff;
+}	
+@media(max-width:1000px)
+{
+	.tphan{
+	background-size: 35%, cover;
+		background-position: 300% bottom,left top;}
+		}
+	
+	
+	@media(max-width:600px){
+		.tphan{
+		background-size: 80%,cover;
+			background-position: 300% bottom, left top;}}		
+	.menu .badge
+{padding: 5px 15px;
+margin-left: 0
+}
+
+.td-mon{position: relative;color: #333}
+.td-mon:after, .gach
+{
+	content:"";
+	position: absolute;max-width:100%;
+	height: 5px; left:105%; top: 50%;
+	border-top: 2px dotted rgb(0,0,0,0.5)
+}
+.box-shadow-example {
+   background-color:rgba(255,255,255,1.00);
+padding: 5px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.5); /* Đổ bóng */
+	position: relative; /* Đảm bảo phần tử có thể sử dụng z-index */
+  z-index: 2; /* Đặt z-index cao để thanh menu nằm trên nền */
+  }
+.box-shadow-example-1{
+   border-radius: 10px ;
+/*padding: 5px;*/
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.5); /* Đổ bóng */
+	position: relative; /* Đảm bảo phần tử có thể sử dụng z-index */
+  z-index: 2; /* Đặt z-index cao để thanh menu nằm trên nền */
+  }
+
+.box-shadow-example-2 {
+   background-color:rgba(255,255,255,1.00);
+padding: 10px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.5); /* Đổ bóng */
+	position: relative; /* Đảm bảo phần tử có thể sử dụng z-index */
+  z-index: 2; /* Đặt z-index cao để thanh menu nằm trên nền */
+  }
+
+[class*="col-"]
+{
+	border:1px /*solid*/;
+	padding: 15px
+}
+
+.vien{
+	background-color: #FFFFFF;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	border: solid;
+	color: #FBBE36;
+	border-radius: 30px
+}
+
+.vien-1{
+	background-color: #FFFFFF;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	border: 2px solid;
+	color: rgba(0,0,0,0.20)
+}
+
+/* General styles for table */
+.table {
+  min-width: 1000px; /* Prevent the table from shrinking */
+  table-layout: fixed; /* Ensures columns have equal width */
+}
+
+.table th,
+.table td {
+  font-size: clamp(12px, 1.2vw, 16px); /* Responsive text size */
+  text-align: center; /* Center align text */
+  vertical-align: middle; /* Center align vertically */
+  white-space: nowrap; /* Prevent text from wrapping */
+  overflow: hidden; /* Hide overflowing content */
+  text-overflow: ellipsis; /* Add "..." to overflowing text */
+  padding: 10px; /* Padding for spacing */
+}
+
+/* Responsive wrapper for horizontal scrolling */
+.table-responsive {
+  overflow-x: auto; /* Enable horizontal scrolling */
+  -webkit-overflow-scrolling: touch; /* Smooth scrolling on iOS */
+}
+
+
+
+/* Button styling */
+.btn-block {
+  width: 100%;
+  font-size: 14px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+@media (max-width: 768px) {
+  /* Adjust padding and font size for mobile */
+  .table th,
+  .table td {
+    font-size: 12px; /* Smaller text size */
+    padding: 5px; /* Smaller padding */
+  }
+
+  .btn-block {
+    font-size: 12px;
+    padding: 8px;
+  }
+}
+
+.payment-box {
+  background: #fff;
+  border-radius: 8px;
+  padding: 20px;
+  max-width: 400px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  margin: auto;
+}
+
+.payment-box h3 {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.payment-box .border-bottom {
+  border-color: #ddd !important;
+}
+
+.payment-box p {
+  font-size: 14px;
+}
+
+.payment-box p.fw-bold {
+  font-size: 16px;
+}
+
+.payment-box button {
+  background-color: #d9534f;
+  border: none;
+  font-size: 16px;
+  padding: 10px;
+  color: #fff;
+  border-radius: 5px;
+}
+
+.payment-box button:hover {
+  background-color: #c9302c;
+}
+
+.payment-box .text-danger {
+  cursor: pointer;
+}
+
+.payment-box .text-danger i {
+  font-size: 14px;
+}
+
+.giaohanglg{
+	background-image:url("../images/delivery_image-min 1.png"),url("../images/delivery_bike-min 1.png"),url("../images/bg-chan-hero.png"),url("../images/delivery_bg 1.png");
+	background-repeat: no-repeat,no-repeat,no-repeat,no-repeat;
+	background-position: right center, center 85%,center bottom,center ;
+	background-size:auto, 250px, auto;
+	min-height: 600px;
+	padding-bottom: 50px;
+	padding-top: 20px
+
+}
+
+.giaohangmd{
+	background-image:url("../images/delivery_image-min 1.png"), url("../images/delivery_bike-min 1.png"),url("../images/delivery_bg 1.png");
+	background-repeat:no-repeat,no-repeat,no-repeat;
+	background-position:right 10%, left 90%, center;
+	background-size: 100px,200px,cover;
+	padding-bottom: 40px;
+	padding-top: 40px;
+	width: 100%	
+
+}
+		
+
+.danhgia{
+	background-image: url("../images/Rectangle 1.png"),url( "../images/testimonial_pattern-min 1.png"),url("../images/bg-chan-hero.png");
+	background-repeat: no-repeat,no-repeat,no-repeat;
+	background-position: left bottom , 25% 40%,center bottom;
+	background-size:460px 20px 200px;
+	padding-bottom: 40px;
+	padding-top: 40px		
+}
+
+@media (max-width:991px){
+	.giaohanglg,.danhgia{display: none !important}
+}
+@media (min-width:992px){
+	.giaohangmd,.danhgiamd{display: none}
+}
+#cuahang2 .card{	
+	border: none;
+	transition: all 0,5s
+}
+
+#cuahang2 .card:hover {
+	border: none;
+	box-shadow: 0px	0px 25px;
+	}
+
+.btn-store{
+  	color: #fff;
+  	background-color: #dc3545;
+  	border-radius:100px;
+	padding: 5px 7px 5px 7px;
+	border: none;
+	top: 50%;
+	left: 50%;
+ 	font-family: "Oswald", serif;
+	font-size: 12px;
+	position: absolute;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+.hide {
+  display: none;
+}
+
+.myDIV:hover + .hide {
+  display: block;
+}
+
+hr {
+  display: block;
+  border-style:solid;
+  border-width: 0.5px;
+border-color:rgba(0,0,0,0.25);
+}
+
+hr2 {
+  display: block;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  margin-left:inherit;
+  margin-right: auto;
+  border-style:solid;
+  border-width: 2px;
+	width: 25%;
+	border-color:#dc3545;
+}
+
+.btn-nofill{
+  	color: #000000;
+	background-color: transparent;
+  	border-radius:100px;
+	border-color: rgba(0,0,0,0.1);
+	border-width: 1px;
+	padding: 5px 7px 5px 7px;
+}
+
+.btn-nofill:hover{
+  	color: #dc3545;
+	font-weight: bold;
+	background-color: transparent;
+  	border-radius:100px;
+	border-color: #dc3545;
+	border-width: 1px;
+	padding: 5px 7px 5px 7px;
+}
+
+.store-bg{
+	background-image: url("../images/menu_pattern3-min 2.png"),url( "../images/bg-chan-hero.png");
+	background-repeat: no-repeat,no-repeat;
+	background-position: center bottom, center top;
+}
+
